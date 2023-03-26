@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>rock paper scissors</title>
+
+    <style>
+        .buttons {
+            display: block;
+            width: max-content;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+        button {
+            height: 50px;
+            width: 150px;
+            background-color: cornsilk;
+            font-size: 20px;
+        }
+        .table{
+            display: block;
+            width: max-content;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <div class="buttons">
+        <button class="rock">rock</button>
+        <button class="paper">paper</button>
+        <button class="scissors">scissors</button>
+    </div>
+
+    <div class="counterTable table"> here will be the count </div>
+    <div class="resultTable table"> here will be result </div>
+
 </body>
 </html>
